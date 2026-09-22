@@ -1,1 +1,15 @@
-/* Add CSS Styling */
+#primary, 
+#secondary {
+    background-color: #ffffff;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+#primary {
+    background-color: #050505;
+    color: #ffffff;
+}
+
+#secondary {
+    background-color: #ffff00;
+}
