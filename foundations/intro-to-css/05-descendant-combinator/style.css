@@ -1,1 +1,30 @@
-/* Add CSS Styling */
+.container .text {
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    font-family: sans-serif, "Arial", "Helvetica";
+    font-size: 20px;
+}
+
+/* Option 2 for descendant combinator selector (using type selectors):
+
+
+div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+
+/* Option 3 for descendant combinator selector (combining class and type selectors):
+
+
+.container p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
